@@ -11,13 +11,13 @@ t = Turtle()
 # add(7,8)
 
 # def square(x):
-#     t.foward(x)
+#     t.forward(x)
 #     t.left(90)
-#     t.foward(x)
+#     t.forward(x)
 #     t.left(90)
-#     t.foward(x)
+#     t.forward(x)
 #     t.left(90)
-#     t.foward(x)
+#     t.forward(x)
 #     t.left(90)
 
 
@@ -46,12 +46,40 @@ t = Turtle()
 
 # turtle.done()
 
-for i in range(0,4):
-    t.width(5)
-    x=100
-    t.forward(x)
+
+# Below is triangle, 3 equal sides
+# for i in range(0,3):
+#     t.width(5)
+#     x=90
+#     t.forward(x)
+#     t.left(120)
+    
+
+# turtle.done()
+
+
+#below is the rectangle
+# def rect(x):
+#     t.width(4)
+#     t.forward(125)
+#     t.left(90)
+#     t.forward(100)
+#     t.left(90)
+#     t.forward(125)
+#     t.left(90)
+#     t.forward(100)
+#     t.left(90)
+# rect(200)
+
+# turtle.done()
+
+
+
+for i in range(4):
+    t.forward(100)
     t.left(90)
 
 turtle.done()
+
 
 
