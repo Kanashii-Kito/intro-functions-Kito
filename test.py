@@ -37,7 +37,7 @@ t = Turtle()
 
 
 
-#that is squre below:D
+""" #that is squre below:D """
 # for i in range(0,4):
 #     t.width(5)
 #     x=100
@@ -47,7 +47,7 @@ t = Turtle()
 # turtle.done()
 
 
-# Below is triangle, 3 equal sides
+""" # Below is triangle, 3 equal sides """
 # for i in range(0,3):
 #     t.width(5)
 #     x=90
@@ -58,7 +58,7 @@ t = Turtle()
 # turtle.done()
 
 
-#below is the rectangle
+""" #below is the rectangle """
 # def rect(x):
 #     t.width(4)
 #     t.forward(125)
@@ -75,9 +75,44 @@ t = Turtle()
 
 
 
-for i in range(4):
+""" for i in range(0,60):
+    t.forward(200)
+    t.left(120)
+    t.right(5) 
+    t.speed(100)
+t.right(15)
+for i in range(0,60):
+    t.forward(75)
+    t.left(90)
+    t.right(5)
+    t.speed(1000) """
+
+""" for i in range(60):
     t.forward(100)
     t.left(90)
+    t.right(5)
+    t.speed(100) """
+
+# for i in range(60):
+#     def square(x):
+#         t.forward(x)
+#         t.left(90)
+#         t.forward(x)
+#         t.left(90)
+#         t.forward(x)
+#         t.left(90)
+#         t.forward(x)
+#         t.left(90)
+#         t.right(5)
+#         t.speed(1000)
+#     square(150)
+# turtle.done()
+    
+
+
+
+
+
 
 turtle.done()
 
