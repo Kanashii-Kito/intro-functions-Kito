@@ -111,10 +111,24 @@ for i in range(0,60):
 
 
 
+# sidelength = 100
+# rotate = 90
+# def square(x,y):
+#     for i in range(4):
+#         t.forward(x)
+#         t.left(y)
+# square(100,90)
 
+# turtle.done()
 
+""" Still working on the thing below [DON"T RUN AND BE A IDIOT] """
+
+def doubleSquares(x,y):
+    length = 25
+    for i in range(iRange):
+        square(length, 90)
+        length = length * 2
+doubleSquares(5)
 
 turtle.done()
-
-
 
