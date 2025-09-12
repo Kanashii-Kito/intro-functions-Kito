@@ -1,6 +1,8 @@
 import turtle
 from turtle import *
-t = Turtle()
+
+'''Make sure to un-comment the turtle below when going to turn turtle stuff'''
+# t = Turtle()
 
 
 # turtle.done()
@@ -109,7 +111,7 @@ for i in range(0,60):
 # turtle.done()
     
 
-
+""" Below is the variable thingy """
 
 # sidelength = 100
 # rotate = 90
@@ -118,17 +120,70 @@ for i in range(0,60):
 #         t.forward(x)
 #         t.left(y)
 # square(100,90)
+# def doubleSquares(iRange):
+#     length = 25
+#     for i in range(iRange):
+#         square(length, 90)
+#         length = length * 2
+# doubleSquares(5)
 
 # turtle.done()
 
-""" Still working on the thing below [DON"T RUN AND BE A IDIOT] """
 
-def doubleSquares(x,y):
-    length = 25
-    for i in range(iRange):
-        square(length, 90)
-        length = length * 2
-doubleSquares(5)
+
+
+
+
+#Strings - Characters, letters, and numbers etc.
+
+# x = "Nathen"
+# print(x)
+# y = input("What is your name?")
+# print(y)
+
+# def add(x,y):
+#     #return is output
+#     return(x+y)
+# bill=add(5,10)
+# print(bill)
+
+'''Notes below - you can run it, I think, if you want to play
+around with it just copy and paste and remember to ctrl+/'''
+# def add(x,y):
+#     return(x+y)
+# z=15
+# bill=input("what is the bill amount?")
+# print(add(15, int(bill)))
+
+
+
+'''Testing stuff below/working on stuff'''
+t = Turtle()
+
+for i in range(60):
+
+    def squareleng(x):
+        t.forward(x)
+        t.left(90)
+        t.forward(x)
+        t.left(90)
+        t.forward(x)
+        t.left(90)
+        t.forward(x)
+        t.left(90)
+        t.left(5)
+        t.speed(100)
+    squareleng(200)
+""" Below is useless? """
+"""     squareleng(25)
+    def doubleSquares(irange):
+        length = 25
+        for i in range(60):
+            length(length, 90)
+            length = length + 5
+    doubleSquares(200) """
 
 turtle.done()
+
+
 
