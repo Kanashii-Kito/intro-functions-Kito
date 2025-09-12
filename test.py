@@ -163,17 +163,13 @@ t = Turtle()
 for i in range(60):
 
     def squareleng(x):
-        t.forward(x)
-        t.left(90)
-        t.forward(x)
-        t.left(90)
-        t.forward(x)
-        t.left(90)
-        t.forward(x)
-        t.left(90)
-        t.left(5)
-        t.speed(100)
-    squareleng(200)
+        for i in range(60):
+            t.forward(x)
+            t.left(90)
+       
+            t.right(5)
+            t.speed(100)
+    squareleng(25)
 """ Below is useless? """
 """     squareleng(25)
     def doubleSquares(irange):
@@ -181,7 +177,7 @@ for i in range(60):
         for i in range(60):
             length(length, 90)
             length = length + 5
-    doubleSquares(200) """
+    doubleSquares(25) """
 
 turtle.done()
 
