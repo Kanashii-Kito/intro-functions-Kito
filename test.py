@@ -328,29 +328,40 @@ students = ["Sean", "Olivia", "Ayaan", "Youssef", "Mia"]
 # length += 25
 
 
-for i in range(5):
-    def square(x,y):
-        t.forward(x)
-        t.left(y)
-
-    sidelength = 5
-    rotate = 90
+for i in range(60):
+    t.speed(100)
     def square(x,y):
         for i in range(4):
-            t.forward(x)
-            t.left(y)
-    square(x,y)
+                # t.forward(x)
+                # t.left(y)
+                t.forward(x)
+                t.left(y)
+                t.forward(x)
+                t.left(y)
+                t.forward(x)
+                t.left(y)
+                t.forward(x)
+                t.left(y)
+                t.right(5)
+            
+    square(25,90)
 
-
-
-for i in range(60):
-    def addSquares(iRange):
-        sidelength = 25
-    for i in range(iRange):
-        square(length, 90)
-        length += 25
-addSquares(5)
-
+    def addsquares(iRange):
+        length = 25
+        for i in range(iRange):
+            square(length,90)
+            length = length + 5
+    addsquares(5)
 
 
 turtle.done()
+
+# for i in range(60):
+#     def addSquares(iRange):
+#         sidelength = 5
+#         square(length, 90)
+#         length += 5
+# addSquares(5)
+
+
+
