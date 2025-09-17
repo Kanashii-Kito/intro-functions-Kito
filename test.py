@@ -371,23 +371,23 @@ def square(x,y):
         t. left(y)
 def addSquares(iRange):
     length - 25
-for i in range(iRange):
+for i in range():
     square(length, 90)
     length += 5
     t. right (5)
 addSquares(60) 
 
-def star(x,y):
-    for i in range(5):
-        t. forward(x)
-        t. left(y)
-def addstars(iRange):
-    length - 25
-    for i in range(iRange):
-        star(length, 144)
-        length += 5
-        t. right (5)
-addstars (65)
+# def star(x,y):
+#     for i in range(5):
+#         t. forward(x)
+#         t. left(y)
+# def addstars(iRange):
+#     length - 25
+#     for i in range(iRange):
+#         star(length, 144)
+#         length += 5
+#         t. right (5)
+# addstars (65)
 
 turtle. done()
 
