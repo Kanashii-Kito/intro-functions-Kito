@@ -1,2 +1,16 @@
 # Auto detect text files and perform LF normalization
 * text=auto
+# money = true
+# friend = false
+# def movie():
+#     if money and friend:
+#         print("movies")
+# movie()
+
+
+hw = false
+
+def movies():
+    if not hw:
+        print("movie title")
+        
