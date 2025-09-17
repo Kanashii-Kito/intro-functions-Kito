@@ -158,7 +158,7 @@ around with it just copy and paste and remember to ctrl+/'''
 
 
 '''Testing stuff below/working on stuff'''
-t = Turtle()
+""" t = Turtle() """
 
 """ for i in range(60):
 
@@ -191,7 +191,7 @@ t = Turtle()
 
 
 
-
+# t = Turtle()
 # for i in range(60):
 #     def square(x,y):
 #         t.forward(x)
@@ -365,32 +365,58 @@ t = Turtle()
 # addSquares(5)
 
 
-def square(x,y): 
-     for i in range(4):
-        t. forward(x)
-        t. left(y)
-def addSquares(iRange):
-    length - 25
-for i in range():
-    square(length, 90)
-    length += 5
-    t. right (5)
-addSquares(60) 
+'''Square Assesment'''
 
-# def star(x,y):
-#     for i in range(5):
+# t = Turtle()
+# def square(x,y):
+#     for i in range(4):
 #         t. forward(x)
 #         t. left(y)
-# def addstars(iRange):
-#     length - 25
+# def addsquares(iRange):
+#     length = 25
 #     for i in range(iRange):
-#         star(length, 144)
+#         square(length, 90)
 #         length += 5
 #         t. right (5)
-# addstars (65)
+#         t.speed(100000)
+# addsquares (65)
+
+# turtle. done()
+
+
+'''Star Assesment'''
+
+t = Turtle()
+def star(x,y):
+    for i in range(5):
+        t. forward(x)
+        t. left(y)
+def addstars(iRange):
+    length = 25
+    for i in range(iRange):
+        star(length, 144)
+        length += 5
+        t. right (5)
+        t.speed(100)
+addstars (65)
 
 turtle. done()
 
+'''Stuff below is notes - disregard'''
+# money = true
+# friend = false
+# def movie():
+#     if money and friend:
+#         print("movies")
+# movie()
 
 
+# hw = True
+
+# def movies():
+#     if not hw:
+#         print("movie Time")
+#     else:
+#         print("damn russian>:(")
+# movies()
 
