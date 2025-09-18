@@ -454,7 +454,7 @@ def star(x,y):
         t. forward(x)
         t. left(y)
 def addstars(iRange):
-    length = 25
+    length = 30
     for i in range(iRange):
         star(length, 144)
         length += 5
