@@ -365,6 +365,68 @@ around with it just copy and paste and remember to ctrl+/'''
 # addSquares(5)
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 '''Square Assesment'''
 
 # t = Turtle()
@@ -401,6 +463,49 @@ def addstars(iRange):
 addstars (65)
 
 turtle. done()
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 '''Stuff below is notes - disregard'''
 # money = true
